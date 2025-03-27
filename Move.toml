@@ -1,0 +1,15 @@
+[package]
+name = "tech-mentor"
+version = "1.0.0"
+authors = []
+
+[addresses]
+TechMonk="0x91ac8320429c06c0c591fc7931edc6a61cf9be07ad3fd7d9a6a43bb24cfbd7cc"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
